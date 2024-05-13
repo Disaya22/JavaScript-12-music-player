@@ -1,0 +1,22 @@
+.cover{
+    background-image: url('./mariah.jpg');
+}
+
+.pause,
+.play{
+    outline: none;
+    border: none;
+
+    cursor: pointer;
+
+    width: 35px;
+    height: 35px;
+    /* margin-top: 10%; */
+}
+.pause{
+    background: url('./pause.png') 0 0 / contain no-repeat;
+}
+
+.play{
+    background: url('./play.png') 0 0 / contain no-repeat;
+}
